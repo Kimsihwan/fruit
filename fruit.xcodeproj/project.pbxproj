@@ -14,6 +14,8 @@
 		0A19B30A2180BE0E007865B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A19B3082180BE0E007865B3 /* LaunchScreen.storyboard */; };
 		0A19B3152180BE0F007865B3 /* fruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A19B3142180BE0F007865B3 /* fruitTests.swift */; };
 		0A19B3202180BE0F007865B3 /* fruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A19B31F2180BE0F007865B3 /* fruitUITests.swift */; };
+		0A19B32E2180BE63007865B3 /* Fruit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A19B32D2180BE63007865B3 /* Fruit.xml */; };
+		0A19B3302180BEEE007865B3 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A19B32F2180BEEE007865B3 /* FruitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0A19B31B2180BE0F007865B3 /* fruitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A19B31F2180BE0F007865B3 /* fruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruitUITests.swift; sourceTree = "<group>"; };
 		0A19B3212180BE0F007865B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A19B32D2180BE63007865B3 /* Fruit.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Fruit.xml; sourceTree = "<group>"; };
+		0A19B32F2180BEEE007865B3 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0A19B3062180BE0E007865B3 /* Assets.xcassets */,
 				0A19B3082180BE0E007865B3 /* LaunchScreen.storyboard */,
 				0A19B30B2180BE0E007865B3 /* Info.plist */,
+				0A19B32D2180BE63007865B3 /* Fruit.xml */,
+				0A19B32F2180BEEE007865B3 /* FruitData.swift */,
 			);
 			path = fruit;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				0A19B30A2180BE0E007865B3 /* LaunchScreen.storyboard in Resources */,
 				0A19B3072180BE0E007865B3 /* Assets.xcassets in Resources */,
+				0A19B32E2180BE63007865B3 /* Fruit.xml in Resources */,
 				0A19B3052180BE0E007865B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				0A19B3022180BE0E007865B3 /* ViewController.swift in Sources */,
 				0A19B3002180BE0E007865B3 /* AppDelegate.swift in Sources */,
+				0A19B3302180BEEE007865B3 /* FruitData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
